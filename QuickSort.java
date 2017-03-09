@@ -45,6 +45,7 @@ public class QuickSort
     { 
 	qsorth(d,0,d.length-1);
     }
+
     public static void qsorth(int[] arr, int left, int right){
 	if(left < right){
 	    int pvtpos = partition (arr, left, right, (left + right)/2);
@@ -77,6 +78,7 @@ public class QuickSort
     public static void main( String[] args ) 
     {
 
+	/*
 	//get-it-up-and-running, static test case:
 	int [] arr1 = {7,1,5,12,3};
 	System.out.println("\narr1 init'd to: " );
@@ -132,8 +134,10 @@ public class QuickSort
 	qsort( arrMatey );
 	System.out.println("arrMatey after sort: " );
 	printArr(arrMatey);
+	*/
 
-
+	//-----------------------------------------------------------------
+	
     }//end main
 
 }//end class QuickSort
