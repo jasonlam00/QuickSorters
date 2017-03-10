@@ -2,17 +2,17 @@ public class QuickSortTester {
 
     public static void main(String[] args){
 	
-	//array size increases exponentially (10, 10^2, 10^3 ... 10^6). 
+	//array size increases exponentially (2, 2^2, 2^3 ... 2^20). 
 	//retTime is run 100 times on each and the average time is used.
 
 	System.out.println("Averages taken from 100 run samples.");
 
-	for(int i = 1; i < 7; i++){
+	for(int i = 1; i < 20; i++){
 	    double k = 0.0;
 	    for (int p = 0; p < 100; p++){
-		k += retTime((int)Math.pow(10, i));
+		k += retTime((int)Math.pow(2, i));
 	    }
-	    System.out.println(" avg for n = 10^" + i + " is " + (k / 100.0));
+	    System.out.println(" avg for n = 2^" + i + " is " + (k / 100.0));
 	}
     }
 
