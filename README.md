@@ -64,3 +64,5 @@ Average Case Scenario: O(nlog(n));
 
 Link for google spreadsheet graph:
 https://docs.google.com/a/stuy.edu/spreadsheets/d/1vNMTCXyOfAqHsLfRkevqxj5Hs75AswRWvTTSOhYV26Q/edit?usp=sharing
+
+edit: it would appear that the lengths and runtimes do not show up in neat lists on github. 
